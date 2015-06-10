@@ -1,0 +1,6 @@
+Name: wurzel_vo
+Description: Description of wurzel_vo
+Version: 0.0.0
+Cflags: -I/home/viki/WurzelWorkspace/install/include
+Libs: -L/home/viki/WurzelWorkspace/install/lib 
+Requires: wurzel_features rvc_utils

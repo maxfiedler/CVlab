@@ -1,0 +1,14 @@
+<package>
+  <description brief="robotino_msgs">
+This package defines certain custom messages for Robotino.
+  </description>
+  <author>indorewala@servicerobotics.eu</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/robotino_msgs</url>
+  <depend package="roscpp"/>
+  <depend package="geometry_msgs"/>
+
+</package>
+
+

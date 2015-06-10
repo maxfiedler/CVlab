@@ -1,0 +1,14 @@
+<package>
+  <description brief="robotino_kinect_registration">
+  </description>
+  <author>indorewala@servicerobotics.eu</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/robotino_kinect_registration</url>
+  <depend package="robotino_node"/>
+  <depend package="pcl"/>
+  <depend package="actionlib" />
+  <depend package="robotino_local_move" />
+</package>
+
+

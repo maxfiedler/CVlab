@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<robot name="robotino">
+  <!-- Include files -->
+  <include filename="$(find robotino_grappler_description)/urdf/grappler.xacro"/>
+  <include filename="$(find robotino_description)/urdf/robotino_body.xacro"/>
+  <include filename="$(find robotino_description)/urdf/robotino_hardware.xacro"/>
+
+  <robotino_body/>
+  
+  <!--laser name="laser" parent="base_link" color="black"-->
+    <!--origin xyz="-0.02 0 0.2"/-->
+  <!--/laser-->
+  
+  <!--kinect name="kinect" parent="base_link" color="black" vlimit="1.571" llimit="-0.47" ulimit="0.47"-->
+    <!--origin xyz="-0.02 0 0.2"/-->
+  <!--/kinect-->
+  
+  <grappler parent="base_link">
+    <origin xyz="0 0 0"/>
+  </grappler>
+</robot>

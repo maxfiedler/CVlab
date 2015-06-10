@@ -1,0 +1,12 @@
+<stack>
+  <description brief="robotino">ROS Stack for Robotino</description>
+  <author>indorewala@servicerobotics.eu</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/robotino</url>
+  <depend stack="ros" />
+  <depend stack="ros_comm" />
+  <depend stack="common_msgs" />
+  <depend stack="geometry" />
+
+</stack>

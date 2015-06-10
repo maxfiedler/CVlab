@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/1346/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_bringup/launch
+END
+move_arm.launch
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/1346/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_bringup/launch/move_arm.launch
+END
+simple_arm_server.launch
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/1346/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_bringup/launch/simple_arm_server.launch
+END

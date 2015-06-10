@@ -1,0 +1,9 @@
+<stack>
+  <description brief="robotino_grappler">ROS Stack for Robotino's grappler</description>
+  <author>indorewala@servicerobotics.eu</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/robotino_grappler</url>
+  <depend stack="ros" />
+
+</stack>

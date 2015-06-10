@@ -1,0 +1,6 @@
+Name: opencv_tests
+Description: Description of opencv_tests
+Version: 1.10.6
+Cflags: -I
+Libs: -L/home/viki/WurzelWorkspace/devel/lib 
+Requires: 

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Project@build</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/viki/WurzelWorkspace/build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/viki/WurzelWorkspace/build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Source directory]</name>
+			<type>2</type>
+			<location>/home/viki/WurzelWorkspace/src</location>
+		</link>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/Project</name>
+			<type>2</type>
+			<location>/home/viki/WurzelWorkspace/src</location>
+		</link>
+		<link>
+			<name>[Subprojects]/gtest</name>
+			<type>2</type>
+			<location>/usr/src/gtest</location>
+		</link>
+		<link>
+			<name>[Subprojects]/rvc_utils</name>
+			<type>2</type>
+			<location>/home/viki/WurzelWorkspace/src/rvc_utils</location>
+		</link>
+		<link>
+			<name>[Subprojects]/wurzel_features</name>
+			<type>2</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files/gtest-all.cc</name>
+			<type>1</type>
+			<location>/usr/src/gtest/src/gtest-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files/gtest_main.cc</name>
+			<type>1</type>
+			<location>/usr/src/gtest/src/gtest_main.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] roc_challenge_server</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] roc_challenge_server/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] roc_challenge_server/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] roc_challenge_server/Source Files/roc_challenge_server.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/rvc_utils/src/roc_challenge_server.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] roc_challenge_server/Source Files/ROCChallengeServer.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/rvc_utils/src/ROCChallengeServer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] roc_challenge_server/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] roc_challenge_server/Header Files/ROCChallengeServer.h</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/rvc_utils/src/ROCChallengeServer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] roc_challenge_server/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] roc_challenge_server/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_detector</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_detector/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_detector/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_detector/Source Files/feature_detector_main.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/feature_detector_main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_detector/Source Files/FeatureDetectorNode.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/FeatureDetectorNode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_detector/Source Files/HarrisDetector.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/HarrisDetector.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_detector/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_detector/Header Files/FeatureDetectorNode.hpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/FeatureDetectorNode.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_detector/Header Files/HarrisDetector.hpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/HarrisDetector.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_detector/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_detector/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Source Files/feature_matcher_main.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/feature_matcher_main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Source Files/FeatureMatcherNode.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/FeatureMatcherNode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Source Files/Descriptor_MOPS.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/Descriptor_MOPS.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Source Files/Descriptor_BRIEF.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/Descriptor_BRIEF.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Source Files/Descriptor_ORB.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/Descriptor_ORB.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Source Files/HarrisDetector.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/HarrisDetector.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Source Files/SimpleMatcher.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/SimpleMatcher.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Source Files/HammingDistanceMatcher.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/HammingDistanceMatcher.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Source Files/OrientedHammingDistanceMatcher.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/OrientedHammingDistanceMatcher.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Source Files/TransMatEstimator.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/TransMatEstimator.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Source Files/HammingMatcherWithTransMat.cpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/HammingMatcherWithTransMat.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Header Files/FeatureMatcherNode.hpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/FeatureMatcherNode.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Header Files/Descriptor_MOPS.hpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/Descriptor_MOPS.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Header Files/Descriptor_BRIEF.hpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/Descriptor_BRIEF.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Header Files/Descriptor_ORB.hpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/Descriptor_ORB.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Header Files/HarrisDetector.hpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/HarrisDetector.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Header Files/DescriptorMatcherInterface.hpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/DescriptorMatcherInterface.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Header Files/SimpleMatcher.hpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/SimpleMatcher.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Header Files/HammingDistanceMatcher.hpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/HammingDistanceMatcher.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Header Files/OrientedHammingDistanceMatcher.hpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/OrientedHammingDistanceMatcher.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Header Files/TransMatEstimator.hpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/TransMatEstimator.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Header Files/HammingMatcherWithTransMat.hpp</name>
+			<type>1</type>
+			<location>/home/viki/WurzelWorkspace/src/wurzel_features/src/HammingMatcherWithTransMat.hpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] feature_matcher/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

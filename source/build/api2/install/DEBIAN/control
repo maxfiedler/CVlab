@@ -1,0 +1,8 @@
+Package: robotino-api2
+Version: 0.8.4
+Section: devel
+Priority: optional
+Architecture: i386
+Maintainer: REC GmbH
+Description: Robotino API2
+

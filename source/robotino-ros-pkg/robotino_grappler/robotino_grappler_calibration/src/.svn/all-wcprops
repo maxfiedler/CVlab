@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/1358/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_calibration/src
+END
+GrapplerCalibration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/1358/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_calibration/src/GrapplerCalibration.cpp
+END
+grappler_calibration_node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/1346/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_calibration/src/grappler_calibration_node.cpp
+END

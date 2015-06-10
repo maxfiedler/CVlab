@@ -1,0 +1,14 @@
+\subsubsection usage Usage
+\verbatim
+<node name="" pkg="wurzel_features" type="">
+  <param name="method" type="int" value="3" />
+  <param name="window_size" type="int" value="3" />
+  <param name="threshold" type="double" value="2200.0" />
+  <param name="GaussBlur_Radius" type="int" value="4" />
+  <param name="GaussBlur_Sigma" type="double" value="1.3" />
+  <param name="number_of_keypoints" type="int" value="200" />
+  <param name="use_ANMS" type="bool" value="True" />
+  <param name="ANMS_Min_Dist" type="double" value="10.0" />
+</node>
+\endverbatim
+

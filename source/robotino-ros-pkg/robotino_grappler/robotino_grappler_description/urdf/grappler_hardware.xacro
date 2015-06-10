@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<robot>
+  <property name="M_PI" value="3.14159"/>
+  <property name="M_SCALE" value="0.01"/>
+  <property name="SHOULDER_WIDTH" value="0.04"/>
+  <property name="SHOULDER_LENGTH" value="0.039"/>
+  <property name="SHOULDER_HEIGHT" value="0.06"/>
+  <property name="ARM_WIDTH" value="0.049"/>
+  <property name="ARM_LENGTH" value="0.034"/>
+  <property name="ARM_HEIGHT" value="0.14"/>
+  <property name="FOREARM_WIDTH" value="0.035"/>
+  <property name="FOREARM_LENGTH" value="0.035"/>
+  <property name="FOREARM_HEIGHT" value="0.101"/>
+  <property name="WRIST_WIDTH" value="0.05"/>
+  <property name="WRIST_LENGTH" value="0.046"/>
+  <property name="WRIST_HEIGHT" value="0.071"/>
+  <property name="FINGER_WIDTH" value="0.007"/>
+  <property name="FINGER_LENGTH" value="0.046"/>
+  <property name="FINGER_HEIGHT" value="0.02"/>
+  <property name="OVERLAP_LARGE" value="0.027"/>
+  <property name="OVERLAP_SMALL" value="0.023"/>
+  
+  <macro name="shoulder" params="parent name color *origin">
+    <joint name="${name}_joint" type="fixed">
+      <insert_block name="origin" />
+      <parent link="${parent}"/>
+      <child link="${name}_link" />
+    </joint>
+
+    <link name="${name}_link">
+      <inertial>
+        <mass value="0.00001" />
+        <origin xyz="0 0 0" />
+        <inertia ixx="1.0" ixy="0.0" ixz="0.0"
+          iyy="1.0" iyz="0.0"
+          izz="1.0" />
+      </inertial>
+
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <box size="${SHOULDER_LENGTH} ${SHOULDER_WIDTH} ${SHOULDER_HEIGHT}"/>
+        </geometry>
+        <material name="${color}"/>
+      </visual>
+
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <box size="${SHOULDER_LENGTH} ${SHOULDER_WIDTH} ${SHOULDER_HEIGHT}"/>
+        </geometry>
+      </collision>
+    </link>
+  </macro>
+  
+  <macro name="arm" params="parent name color llimit ulimit vlimit *origin">
+    <joint name="${name}_joint" type="revolute">
+      <insert_block name="origin" />
+      <axis xyz="0 1 0"/>
+      <limit effort="30" velocity="${vlimit}" lower="${llimit}" upper="${ulimit}" />
+      <parent link="${parent}"/>
+      <child link="${name}_link" />
+    </joint>
+
+    <link name="${name}_link">
+      <inertial>
+        <mass value="0.00001" />
+        <origin xyz="0 0 ${ARM_HEIGHT/2}" />
+        <inertia ixx="1.0" ixy="0.0" ixz="0.0"
+          iyy="1.0" iyz="0.0"
+          izz="1.0" />
+      </inertial>
+
+      <visual>
+        <!--origin xyz="0 0 0" rpy="0 0 0" /-->
+        <origin xyz="0 0 ${ARM_HEIGHT/2}" />
+        <geometry>
+          <box size="${ARM_LENGTH} ${ARM_WIDTH} ${ARM_HEIGHT}"/>
+        </geometry>
+        <material name="${color}"/>
+      </visual>
+
+      <collision>
+        <origin xyz="0 0 ${ARM_HEIGHT/2}" />
+        <geometry>
+          <box size="${ARM_LENGTH} ${ARM_WIDTH} ${ARM_HEIGHT}"/>
+        </geometry>
+      </collision>
+    </link>
+  </macro>
+  
+  <macro name="forearm" params="parent name color llimit ulimit vlimit *origin">
+    <joint name="${name}_joint" type="revolute">
+      <insert_block name="origin" />
+      <axis xyz="0 1 0"/>
+      <limit effort="30" velocity="${vlimit}" lower="${llimit}" upper="${ulimit}" />
+      <parent link="${parent}"/>
+      <child link="${name}_link" />
+    </joint>
+
+    <link name="${name}_link">
+      <inertial>
+        <mass value="0.00001" />
+        <origin xyz="0 0 ${FOREARM_HEIGHT/2}"/>
+        <inertia ixx="1.0" ixy="0.0" ixz="0.0"
+          iyy="1.0" iyz="0.0"
+          izz="1.0" />
+      </inertial>
+
+      <visual>
+        <!--origin xyz="0 0 0" rpy="0 0 0" /-->
+        <origin xyz="0 0 ${FOREARM_HEIGHT/2}"/>
+        <geometry>
+          <box size="${FOREARM_LENGTH} ${FOREARM_WIDTH} ${FOREARM_HEIGHT}"/>
+        </geometry>
+        <material name="${color}"/>
+      </visual>
+
+      <collision>
+        <origin xyz="0 0 ${FOREARM_HEIGHT/2}"/>
+        <geometry>
+          <box size="${FOREARM_LENGTH} ${FOREARM_WIDTH} ${FOREARM_HEIGHT}"/>
+        </geometry>
+      </collision>
+    </link>
+  </macro>
+  
+  <macro name="wrist" params="parent name color llimit ulimit vlimit *origin">
+    <joint name="${name}_joint" type="revolute">
+      <insert_block name="origin" />
+      <axis xyz="0 1 0"/>
+      <limit effort="30" velocity="${vlimit}" lower="${llimit}" upper="${ulimit}" />
+      <parent link="${parent}"/>
+      <child link="${name}_link" />
+    </joint>
+
+    <link name="${name}_link">
+      <inertial>
+        <mass value="0.00001" />
+        <origin xyz="0 0 ${WRIST_HEIGHT/2}"/>
+        <inertia ixx="1.0" ixy="0.0" ixz="0.0"
+          iyy="1.0" iyz="0.0"
+          izz="1.0" />
+      </inertial>
+
+      <visual>
+        <!--origin xyz="0 0 0" rpy="0 0 0" /-->
+        <origin xyz="0 0 ${WRIST_HEIGHT/2}"/>
+        <geometry>
+          <box size="${WRIST_LENGTH} ${WRIST_WIDTH} ${WRIST_HEIGHT}"/>
+        </geometry>
+        <material name="${color}"/>
+      </visual>
+
+      <collision>
+        <origin xyz="0 0 ${WRIST_HEIGHT/2}"/>
+        <geometry>
+          <box size="${WRIST_LENGTH} ${WRIST_WIDTH} ${WRIST_HEIGHT}"/>
+        </geometry>
+      </collision>
+    </link>
+  </macro>
+  
+  <macro name="finger01" params="parent name color llimit ulimit vlimit *origin">
+    <joint name="${name}_joint" type="prismatic">
+      <insert_block name="origin" />
+      <axis xyz="0 1 0"/>
+      <limit effort="30" velocity="${vlimit}" lower="${llimit}" upper="${ulimit}" />
+      <parent link="${parent}"/>
+      <child link="${name}_link" />
+    </joint>
+
+    <link name="${name}_link">
+      <inertial>
+        <mass value="0.00001" />
+        <origin xyz="0 0 ${FINGER_HEIGHT/2}" />
+        <inertia ixx="1.0" ixy="0.0" ixz="0.0"
+          iyy="1.0" iyz="0.0"
+          izz="1.0" />
+      </inertial>
+
+      <visual>
+        <origin xyz="0 0 ${FINGER_HEIGHT/2}" rpy="0 0 0" />
+        <geometry>
+          <box size="${FINGER_LENGTH} ${FINGER_WIDTH} ${FINGER_HEIGHT}"/>
+        </geometry>
+        <material name="${color}"/>
+      </visual>
+
+      <collision>
+        <origin xyz="0 0 ${FINGER_HEIGHT/2}" rpy="0 0 0" />
+        <geometry>
+          <box size="${FINGER_LENGTH} ${FINGER_WIDTH} ${FINGER_HEIGHT}"/>
+        </geometry>
+      </collision>
+    </link>
+  </macro>
+  
+  <macro name="finger02" params="parent name color llimit ulimit vlimit *origin">
+    <joint name="${name}_joint" type="prismatic">
+      <insert_block name="origin" />
+      <axis xyz="0 1 0"/>
+      <limit effort="30" velocity="${vlimit}" lower="${llimit}" upper="${ulimit}" />
+      <parent link="${parent}"/>
+      <child link="${name}_link" />
+    </joint>
+
+    <link name="${name}_link">
+      <inertial>
+        <mass value="0.00001" />
+        <origin xyz="0 0 ${FINGER_HEIGHT/2}" />
+        <inertia ixx="1.0" ixy="0.0" ixz="0.0"
+          iyy="1.0" iyz="0.0"
+          izz="1.0" />
+      </inertial>
+
+      <visual>
+        <origin xyz="0 0 ${FINGER_HEIGHT/2}" rpy="${M_PI} 0 0" />
+        <geometry>
+          <box size="${FINGER_LENGTH} ${FINGER_WIDTH} ${FINGER_HEIGHT}"/>
+        </geometry>
+        <material name="${color}"/>
+      </visual>
+
+      <collision>
+        <origin xyz="0 0 ${FINGER_HEIGHT/2}" rpy="0 0 0" />
+        <geometry>
+          <box size="${FINGER_LENGTH} ${FINGER_WIDTH} ${FINGER_HEIGHT}"/>
+        </geometry>
+      </collision>
+    </link>
+  </macro>
+	
+</robot>

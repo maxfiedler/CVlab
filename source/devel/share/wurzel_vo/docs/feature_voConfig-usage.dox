@@ -1,0 +1,17 @@
+\subsubsection usage Usage
+\verbatim
+<node name="wurzel_vo" pkg="wurzel_vo" type="wurzel_vo">
+  <param name="max_disparity" type="int" value="300" />
+  <param name="min_disparity" type="int" value="6" />
+  <param name="max_move_dist" type="int" value="300" />
+  <param name="max_3d_dist" type="double" value="30.0" />
+  <param name="numOfIter" type="int" value="50" />
+  <param name="subsetSize" type="int" value="3" />
+  <param name="inlier_dist_threshold" type="double" value="10.0" />
+  <param name="publish_pcl" type="bool" value="False" />
+  <param name="publish_marker" type="bool" value="True" />
+  <param name="publish_temporalMatchImg" type="bool" value="True" />
+  <param name="publish_stereoMatchImg" type="bool" value="False" />
+</node>
+\endverbatim
+

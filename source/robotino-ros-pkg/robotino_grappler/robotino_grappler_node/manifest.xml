@@ -1,0 +1,17 @@
+<package>
+  <description brief="robotino_grappler_node">
+  
+  </description>
+  <author>indorewala@servicerobotics.eu</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/robotino_grappler_node</url>
+  <depend package="robotino_node"/>
+  <depend package="robotino_msgs"/>
+  <depend package="actionlib"/>
+  <depend package="control_msgs"/>
+  <depend package="trajectory_msgs"/>
+  <depend package="robotino_grappler_msgs"/>
+</package>
+
+

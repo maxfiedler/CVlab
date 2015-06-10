@@ -1,0 +1,9 @@
+\subsubsection usage Usage
+\verbatim
+<node name="wurzel_dense" pkg="wurzel_dense" type="wurzel_dense">
+  <param name="pub_disparity_idx" type="int" value="0" />
+  <param name="GaussBlur_Radius" type="int" value="1" />
+  <param name="GaussBlur_Sigma" type="double" value="1.0" />
+</node>
+\endverbatim
+

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/1346/robotino-ros-pkg/trunk/robotino_kinect/robotino_kinect_registration/launch
+END
+kinect_registration_node.launch
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/1346/robotino-ros-pkg/trunk/robotino_kinect/robotino_kinect_registration/launch/kinect_registration_node.launch
+END

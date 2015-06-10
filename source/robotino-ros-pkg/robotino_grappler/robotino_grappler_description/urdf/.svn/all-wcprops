@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/1399/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_description/urdf
+END
+grappler_hardware.xacro
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/1359/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_description/urdf/grappler_hardware.xacro
+END
+grappler.urdf.xacro
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/1350/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_description/urdf/grappler.urdf.xacro
+END
+grappler.xacro
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/1353/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_description/urdf/grappler.xacro
+END
+grappler.urdf
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/1399/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_description/urdf/grappler.urdf
+END

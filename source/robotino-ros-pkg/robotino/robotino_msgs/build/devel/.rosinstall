@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/viki/WurzelWorkspace/src/robotino-ros-pkg/robotino/robotino_msgs/build/devel/setup.sh

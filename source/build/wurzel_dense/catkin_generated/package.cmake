@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "wurzel_dense")
+set(wurzel_dense_MAINTAINER "shao <shao@todo.todo>")
+set(wurzel_dense_DEPRECATED "")
+set(wurzel_dense_VERSION "0.0.0")
+set(wurzel_dense_BUILD_DEPENDS "catkin" "opencv" "pcl" "pcl_ros" "roscpp" "rospy" "rvc_utils" "std_msgs" "wurzel_features")
+set(wurzel_dense_RUN_DEPENDS "catkin" "opencv" "pcl" "pcl_ros" "roscpp" "rospy" "rvc_utils" "std_msgs" "wurzel_features")
+set(wurzel_dense_BUILDTOOL_DEPENDS "catkin")

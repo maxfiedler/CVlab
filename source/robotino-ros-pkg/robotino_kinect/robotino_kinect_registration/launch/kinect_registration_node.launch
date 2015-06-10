@@ -1,0 +1,8 @@
+<launch>
+	<node pkg="robotino_kinect_registration" type="kinect_registration_node" name="kinect_registration_node" output="screen">
+		<param name="angle_rotation" value="40.0" type="double" />
+		<param name="output_topic" value="registered_cloud" type="string" />
+	</node>
+	<!-- Run robotino_local_move_server -->
+	<include file="$(find robotino_local_move)/launch/robotino_local_move_server.launch" />
+</launch>

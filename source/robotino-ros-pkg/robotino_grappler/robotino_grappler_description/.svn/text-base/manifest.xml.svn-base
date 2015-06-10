@@ -1,0 +1,14 @@
+<package>
+  <description brief="robotino_grappler_description">
+
+urdf, xacro and mesh files for robotino's grappler
+
+  </description>
+  <author>indorewala@servicerobotics.eu</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/robotino_grappler_description</url>
+
+</package>
+
+

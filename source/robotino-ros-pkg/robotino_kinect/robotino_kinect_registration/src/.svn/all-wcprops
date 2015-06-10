@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/1346/robotino-ros-pkg/trunk/robotino_kinect/robotino_kinect_registration/src
+END
+KinectRegistration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/1346/robotino-ros-pkg/trunk/robotino_kinect/robotino_kinect_registration/src/KinectRegistration.cpp
+END
+kinect_registration_node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/1346/robotino-ros-pkg/trunk/robotino_kinect/robotino_kinect_registration/src/kinect_registration_node.cpp
+END

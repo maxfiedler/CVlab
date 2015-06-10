@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/2111/robotino-ros-pkg/trunk/robotino
+END
+stack.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/1257/robotino-ros-pkg/trunk/robotino/stack.xml
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/1257/robotino-ros-pkg/trunk/robotino/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/1257/robotino-ros-pkg/trunk/robotino/Makefile
+END

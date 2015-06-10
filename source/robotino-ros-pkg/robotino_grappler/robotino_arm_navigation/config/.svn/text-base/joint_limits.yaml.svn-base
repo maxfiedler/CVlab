@@ -1,0 +1,27 @@
+joint_limits:
+  grappler_shoulder_pan_joint:
+    has_position_limits: false
+    has_velocity_limits: false
+    has_acceleration_limits: false
+    angle_wraparound: true
+  grappler_arm_joint:
+    has_position_limits: true
+    has_velocity_limits: true
+    max_velocity: 1.571
+    has_acceleration_limits: true
+    max_acceleration: 1
+    angle_wraparound: false
+  grappler_forearm_joint:
+    has_position_limits: true
+    has_velocity_limits: true
+    max_velocity: 1.571
+    has_acceleration_limits: true
+    max_acceleration: 1
+    angle_wraparound: false
+  grappler_wrist_joint:
+    has_position_limits: true
+    has_velocity_limits: true
+    max_velocity: 1.571
+    has_acceleration_limits: true
+    max_acceleration: 1
+    angle_wraparound: false

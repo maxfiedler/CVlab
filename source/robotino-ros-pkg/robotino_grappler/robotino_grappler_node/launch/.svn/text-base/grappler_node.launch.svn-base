@@ -1,0 +1,6 @@
+<launch>
+	<arg name="grappler_calibration_yaml" default="$(find robotino_grappler_calibration)/config/calibration_values.yaml" />
+	<node name="robotino_grappler_node" pkg="robotino_grappler_node" type="robotino_grappler_node" output="screen" args="$(arg grappler_calibration_yaml)">
+		<remap from="grappler_joint_states" to="joint_states"/>
+	</node>
+</launch>

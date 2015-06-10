@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/1358/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_msgs
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/1358/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_msgs/manifest.xml
+END
+mainpage.dox
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/1358/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_msgs/mainpage.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/1358/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_msgs/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/1358/robotino-ros-pkg/trunk/robotino_grappler/robotino_grappler_msgs/Makefile
+END

@@ -1,0 +1,6 @@
+Name: wurzel_features
+Description: Description of wurzel_features
+Version: 0.0.0
+Cflags: -I/home/viki/WurzelWorkspace/install/include
+Libs: -L/home/viki/WurzelWorkspace/install/lib 
+Requires: message_runtime rvc_utils

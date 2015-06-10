@@ -1,0 +1,14 @@
+<package>
+  <description brief="robotino_grappler_msgs">
+
+     robotino_grappler_msgs
+
+  </description>
+  <author>robotino</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/robotino_grappler_msgs</url>
+
+</package>
+
+

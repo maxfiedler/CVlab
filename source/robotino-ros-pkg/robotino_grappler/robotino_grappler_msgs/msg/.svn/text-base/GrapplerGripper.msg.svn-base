@@ -1,0 +1,1 @@
+float32 angle	# 0 degrees is closed and 20 degrees is fully open 

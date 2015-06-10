@@ -1,0 +1,13 @@
+<launch>
+    <include file="$(find robotino_arm_navigation)/launch/robotino_planning_environment.launch" />
+    <include file="$(find planning_environment)/launch/planning_environment_visualization_prerequisites.launch" />
+    <include file="$(find robotino_arm_navigation)/launch/constraint_aware_kinematics.launch" />
+    <include file="$(find robotino_arm_navigation)/launch/ompl_planning.launch" />
+    <include file="$(find robotino_arm_navigation)/launch/trajectory_filter_server.launch" />
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find robotino_grappler_bringup)/config/move_arm.vcg"/>
+    <node pkg="move_arm" type="move_arm_simple_action" name="move_grappler" output="screen" >
+    	<param name="controller_action_name" value="/follow_joint_trajectory" />
+    	<param name="group" value="grappler" />
+    	<remap from="arm_ik" to="robotino_grappler_kinematics" />
+    </node>
+</launch>

@@ -1,0 +1,16 @@
+<package>
+  <description brief="robotino_grappler_calibration">
+
+     robotino_grappler_calibration
+
+  </description>
+  <author>robotino</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/robotino_grappler_calibration</url>
+  <depend package="robotino_node"/>
+  <depend package="robotino_msgs"/>
+
+</package>
+
+

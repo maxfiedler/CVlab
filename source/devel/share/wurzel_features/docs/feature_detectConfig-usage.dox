@@ -1,0 +1,24 @@
+\subsubsection usage Usage
+\verbatim
+<node name="feature_detector" pkg="wurzel_features" type="feature_detector">
+  <param name="window_size" type="int" value="2" />
+  <param name="threshold" type="double" value="0.01" />
+  <param name="dynamic_threshold" type="bool" value="True" />
+  <param name="cutEdge" type="bool" value="True" />
+  <param name="GaussBlur_Radius" type="int" value="1" />
+  <param name="GaussBlur_Sigma" type="double" value="1.0" />
+  <param name="number_of_keypoints" type="int" value="500" />
+  <param name="fix_number" type="bool" value="True" />
+  <param name="use_octaves" type="bool" value="False" />
+  <param name="num_of_octave" type="int" value="2" />
+  <param name="colorful_octave" type="bool" value="True" />
+  <param name="compare_with_openCV" type="bool" value="False" />
+  <param name="use_ANMS" type="bool" value="True" />
+  <param name="ANMS_Min_Dist" type="double" value="10.0" />
+  <param name="ANMS_CR" type="double" value="0.8" />
+  <param name="size_of_point" type="int" value="1" />
+  <param name="show_orientation" type="bool" value="False" />
+  <param name="show_Gradient" type="bool" value="False" />
+</node>
+\endverbatim
+

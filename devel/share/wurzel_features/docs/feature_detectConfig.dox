@@ -1,0 +1,23 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~window_size" : \b [int] Window size of Harris Detector. min: 0, default: 2, max: 10
+- \b "~threshold" : \b [double] A double parameter min: 0.0, default: 0.01, max: 1.0
+- \b "~dynamic_threshold" : \b [bool]  min: False, default: True, max: True
+- \b "~cutEdge" : \b [bool]  min: False, default: True, max: True
+- \b "~GaussBlur_Radius" : \b [int]  min: 0, default: 1, max: 5
+- \b "~GaussBlur_Sigma" : \b [double]  min: 0.1, default: 1.0, max: 5.0
+- \b "~number_of_keypoints" : \b [int]  min: 1, default: 500, max: 1000
+- \b "~fix_number" : \b [bool]  min: False, default: True, max: True
+- \b "~use_octaves" : \b [bool]  min: False, default: False, max: True
+- \b "~num_of_octave" : \b [int] Window size of Harris Detector. min: 1, default: 2, max: 4
+- \b "~colorful_octave" : \b [bool]  min: False, default: True, max: True
+- \b "~compare_with_openCV" : \b [bool]  min: False, default: False, max: True
+- \b "~use_ANMS" : \b [bool]  min: False, default: True, max: True
+- \b "~ANMS_Min_Dist" : \b [double]  min: 0.0, default: 10.0, max: 100.0
+- \b "~ANMS_CR" : \b [double]  min: 0.1, default: 0.8, max: 1.0
+- \b "~size_of_point" : \b [int]  min: 1, default: 1, max: 20
+- \b "~show_orientation" : \b [bool]  min: False, default: False, max: True
+- \b "~show_Gradient" : \b [bool]  min: False, default: False, max: True
+

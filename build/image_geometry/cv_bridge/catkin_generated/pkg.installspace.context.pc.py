@@ -1,0 +1,7 @@
+CATKIN_PACKAGE_PREFIX=""
+PROJECT_ABSOLUTE_INCLUDE_DIRS="/home/viki/WurzelWorkspace/install/include;/opt/ros/groovy/include/opencv;/opt/ros/groovy/include"
+PROJECT_CATKIN_DEPENDS="rosconsole;sensor_msgs"
+PKG_CONFIG_LIBRARIES="cv_bridge;/opt/ros/groovy/lib/libopencv_calib3d.so;/opt/ros/groovy/lib/libopencv_contrib.so;/opt/ros/groovy/lib/libopencv_core.so;/opt/ros/groovy/lib/libopencv_features2d.so;/opt/ros/groovy/lib/libopencv_flann.so;/opt/ros/groovy/lib/libopencv_gpu.so;/opt/ros/groovy/lib/libopencv_highgui.so;/opt/ros/groovy/lib/libopencv_imgproc.so;/opt/ros/groovy/lib/libopencv_legacy.so;/opt/ros/groovy/lib/libopencv_ml.so;/opt/ros/groovy/lib/libopencv_nonfree.so;/opt/ros/groovy/lib/libopencv_objdetect.so;/opt/ros/groovy/lib/libopencv_photo.so;/opt/ros/groovy/lib/libopencv_stitching.so;/opt/ros/groovy/lib/libopencv_video.so;/opt/ros/groovy/lib/libopencv_videostab.so"
+PROJECT_NAME="cv_bridge"
+PROJECT_SPACE_DIR="/home/viki/WurzelWorkspace/install"
+PROJECT_VERSION="1.10.6"

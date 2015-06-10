@@ -1,0 +1,13 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~method" : \b [int] A method parameter which is edited via an enum min: 1, default: 3, max: 3
+- \b "~window_size" : \b [int] Window size of Harris Detector. min: 0, default: 3, max: 10
+- \b "~threshold" : \b [double] A double parameter min: 0.0, default: 2200.0, max: 10000.0
+- \b "~GaussBlur_Radius" : \b [int]  min: 0, default: 4, max: 20
+- \b "~GaussBlur_Sigma" : \b [double]  min: 0.1, default: 1.3, max: 5.0
+- \b "~number_of_keypoints" : \b [int]  min: 1, default: 200, max: 500
+- \b "~use_ANMS" : \b [bool]  min: False, default: True, max: True
+- \b "~ANMS_Min_Dist" : \b [double]  min: 0.0, default: 10.0, max: 100.0
+

@@ -1,0 +1,16 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~max_disparity" : \b [int]  min: 0, default: 300, max: 500
+- \b "~min_disparity" : \b [int]  min: 0, default: 6, max: 30
+- \b "~max_move_dist" : \b [int]  min: 0, default: 300, max: 500
+- \b "~max_3d_dist" : \b [double]  min: 0.0, default: 30.0, max: 100.0
+- \b "~numOfIter" : \b [int]  min: 1, default: 50, max: 100
+- \b "~subsetSize" : \b [int]  min: 1, default: 3, max: 20
+- \b "~inlier_dist_threshold" : \b [double]  min: 0.0, default: 10.0, max: 100.0
+- \b "~publish_pcl" : \b [bool]  min: False, default: False, max: True
+- \b "~publish_marker" : \b [bool]  min: False, default: True, max: True
+- \b "~publish_temporalMatchImg" : \b [bool]  min: False, default: True, max: True
+- \b "~publish_stereoMatchImg" : \b [bool]  min: False, default: False, max: True
+

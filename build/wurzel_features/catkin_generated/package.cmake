@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "wurzel_features")
+set(wurzel_features_MAINTAINER "Tianlan Shao <tianlan.shao@tum.de>, Max Fiedler <fiedler.max@gmail.com>, Emilija Markovska <markovska.emi@gmail.com>")
+set(wurzel_features_DEPRECATED "")
+set(wurzel_features_VERSION "0.0.0")
+set(wurzel_features_BUILD_DEPENDS "cv_bridge" "dynamic_reconfigure" "image_transport" "opencv" "roscpp" "rvc_utils" "message_runtime")
+set(wurzel_features_RUN_DEPENDS "message_runtime" "cv_bridge" "dynamic_reconfigure" "image_transport" "opencv" "roscpp" "rvc_utils")
+set(wurzel_features_BUILDTOOL_DEPENDS "catkin")

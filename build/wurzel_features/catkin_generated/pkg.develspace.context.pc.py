@@ -1,0 +1,7 @@
+CATKIN_PACKAGE_PREFIX=""
+PROJECT_ABSOLUTE_INCLUDE_DIRS="/home/viki/WurzelWorkspace/devel/include;/home/viki/WurzelWorkspace/src/wurzel_features/include"
+PROJECT_CATKIN_DEPENDS="message_runtime;rvc_utils"
+PKG_CONFIG_LIBRARIES=""
+PROJECT_NAME="wurzel_features"
+PROJECT_SPACE_DIR="/home/viki/WurzelWorkspace/devel"
+PROJECT_VERSION="0.0.0"

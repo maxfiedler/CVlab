@@ -1,0 +1,6 @@
+Name: rvc_utils
+Description: Description of rvc_utils
+Version: 0.0.1
+Cflags: -I/home/viki/WurzelWorkspace/install/include
+Libs: -L/home/viki/WurzelWorkspace/install/lib 
+Requires: geometry_msgs message_runtime
